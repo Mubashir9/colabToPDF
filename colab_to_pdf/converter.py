@@ -6,7 +6,7 @@ import nbformat
 from nbconvert import HTMLExporter
 from playwright.async_api import async_playwright
 
-class TrueColorConverter:
+class ColabToPDFConverter:
     def __init__(self, input_path):
         self.input_path = Path(input_path)
         self.output_path = self.input_path.with_suffix('.pdf')
@@ -88,5 +88,5 @@ class TrueColorConverter:
         print("Conversion complete!")
 
 async def run_conversion(input_path):
-    converter = TrueColorConverter(input_path)
+    converter = ColabToPDFConverter(input_path)
     await converter.convert()

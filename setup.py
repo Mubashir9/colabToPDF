@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="truecolor-colab-pdf",
+    name="colabToPDF",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "truecolor-export=truecolor_pdf.cli:main",
+            "colabToPDF=colab_to_pdf.cli:main",
         ],
     },
     author="Antigravity",

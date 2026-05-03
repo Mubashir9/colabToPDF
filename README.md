@@ -16,7 +16,7 @@ To use this tool directly in a Colab notebook, run the following commands in a c
 !pip install git+https://github.com/Mubashir9/colabToPDF.git
 
 # 2. Export your notebook
-!truecolor-export my_notebook.ipynb
+!colabToPDF my_notebook.ipynb
 ```
 
 ## 💻 Local Installation
@@ -31,7 +31,7 @@ pip install -e .
 
 Then run:
 ```bash
-truecolor-export path/to/notebook.ipynb
+colabToPDF path/to/notebook.ipynb
 ```
 
 ## 📜 How it works

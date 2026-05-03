@@ -4,7 +4,7 @@ import sys
 from .converter import run_conversion
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert Colab .ipynb to PDF with true colors.")
+    parser = argparse.ArgumentParser(description="Convert Colab .ipynb to PDF with high-fidelity colors.")
     parser.add_argument("input", help="The input .ipynb file.")
     
     args = parser.parse_args()
