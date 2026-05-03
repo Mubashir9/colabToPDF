@@ -1,4 +1,4 @@
-# TrueColor-Colab-PDF
+# colabToPDF
 
 A Python-based command-line tool designed to convert Google Colab `.ipynb` files into high-fidelity PDFs. It strictly preserves "Screen" colors (syntax highlighting, bold text, and backgrounds) and prevents the "greyed-out" effect caused by standard print media queries.
 
